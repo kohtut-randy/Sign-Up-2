@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up 2</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="h-screen mt-48 container mx-auto flex flex-row items-center justify-center relative space-x-0 lg:space-x-16">
+        <div class=" w-full lg:hidden">
+            <img class="w-full h-auto" src="./img/Sign Up 2 Image.png" style="width: 600px; height: 700px;">
+        </div>
+        <div class=" hidden lg:flex lg:w-96">
+            <img class="w-full h-screen" src="./img/Sign Up 2 Image.png">
+        </div>
+        <div class="px-4 py-4  absolute lg:relative lg:w-96 flex flex-col items-start justify-center space-y-4 rounded bg-white opacity-90 lg:opacity-100">
+            <h1 class="text-4xl text-black font-black">Create your account</h1>
+            <form class="flex flex-col items-start justify-center space-y-2">
+                <div class="flex flex-col items-start justify-center space-y-2 ">
+                    <label for="name">
+                        Your Name*
+                    </label>
+                    <input class=" px-4 w-72 h-7 box-border border-gray-300 rounded-lg border-solid border-2 outline-0" placeholder="full name" type="email">
+                </div>
+                <div class="flex flex-col items-start justify-center space-y-2 ">
+                    <label for="email">
+                        Email address*
+                    </label>
+                    <input class=" px-4 w-72 h-7 box-border border-gray-300 rounded-lg border-solid border-2 outline-0" placeholder="Enter email address" type="email">
+                </div>
+                <div class="flex flex-col items-start justify-center space-y-2 ">
+                    <label for="email">
+                        Confirm Email
+                    </label>
+                    <input class=" px-4 w-72 h-7 box-border border-gray-300 rounded-lg border-solid border-2 outline-0" placeholder="Enter number" type="email">
+                </div>
+                <div class="flex flex-col items-start justify-center space-y-2 ">
+                    <label for="password">
+                        Password*
+                    </label>
+                    <input class=" px-4  w-72 h-7 box-border border-gray-300 rounded-lg border-solid border-2 outline-0" placeholder="*************" type="password">
+                </div>
+               <div class="flex flex-col items-start justify-center space-y-2 ">
+                <label for="password">
+                    Confirm Password*
+                </label>
+                <input class=" px-4  w-72 h-7 box-border border-gray-300 rounded-lg border-solid border-2 outline-0" placeholder="*************" type="password">
+               </div>
+                <h2 class="text-xl text-black">Terms & Condition</h2>
+                <div class="flex flex-row items-center justify-between space-x-4">
+                    <input type="checkbox" name="" id="">
+                    <label class="text-gray-500" for="checkbox">I agree with the terms & conditions</label>
+                </div>
+                <div class="flex flex-row items-center justify-between space-x-12">
+                    <button class="py-2 px-3 bg-red-500 text-white rounded">Create Your Account </button>
+                </div>
+                <div class="flex flex-col items-start lg:flex-row  lg:items-center justify-between space-y-4 lg:space-y-0 lg:space-x-12">
+                    <p class="text-gray-500">
+                        Already have an account?
+                    </p>
+                    <p class=" underline text-red-500">
+                        Sign in now
+                    </p>
+                </div>
+            </form>  
+        </div>
+    </div>
+</body>
+</html>
