@@ -1,0 +1,11 @@
+.for-sm{
+    width: 600px; 
+    height: 700px;
+}
+.for-lg{
+    height: 750px;
+    width: auto;
+}
+.button{
+    background-color: rgba(253, 76, 92, 1);
+}
