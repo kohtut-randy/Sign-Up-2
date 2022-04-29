@@ -1,9 +1,16 @@
+body{
+    width: 100%;
+}
+.container{
+    width: 90%;
+    margin-left:0px;
+}
 .for-sm{
     width: 600px; 
     height: 900px;
 }
 .for-lg{
-    height: 750px;
+    height: 800px;
     width: auto;
 }
 .button{
